@@ -3,17 +3,18 @@
 Welcome to the documentation for **Better Voxy**, a Minecraft Java modpack focused on Voxy distant-terrain rendering with a selection of optimization mods.
 
 - **Minecraft:** 26.2
-- **Loader:** Fabric
+- **Mod loader:** Fabric
 
-## Start here
+## Guides
 
-- [Installation](Installation.md)
-- [Chunksmith Guide](Chunksmith-Guide.md)
-- [Configuration](Configuration.md)
-- [Troubleshooting](Troubleshooting.md)
-- [Support and Bug Reports](Support.md)
-- [Mod and Configuration Suggestions](Mod-and-Configuration-Suggestions.md)
-- [Release Checklist](Release-Checklist.md)
+- [Installation](https://github.com/slydtaz/Better-Voxy/blob/main/docs/wiki/Installation.md)
+- [Chunksmith Guide](https://github.com/slydtaz/Better-Voxy/blob/main/docs/wiki/Chunksmith-Guide.md)
+- [Configuration](https://github.com/slydtaz/Better-Voxy/blob/main/docs/wiki/Configuration.md)
+- [Troubleshooting](https://github.com/slydtaz/Better-Voxy/blob/main/docs/wiki/Troubleshooting.md)
+- [Support and Bug Reports](https://github.com/slydtaz/Better-Voxy/blob/main/docs/wiki/Support.md)
+- [Mod and Configuration Suggestions](https://github.com/slydtaz/Better-Voxy/blob/main/docs/wiki/Mod-and-Configuration-Suggestions.md)
+- [Release Checklist](https://github.com/slydtaz/Better-Voxy/blob/main/docs/wiki/Release-Checklist.md)
+- [Project Links](https://github.com/slydtaz/Better-Voxy/blob/main/docs/wiki/Project-Links.md)
 
 ## Support
 
