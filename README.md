@@ -6,12 +6,12 @@ Support, issue templates, and contributor guidance for the Better Voxy Minecraft
 
 Choose the form that best matches your request:
 
-- [Suggest an additional mod](https://github.com/slydtaz/Better-Voxy/issues/new/choose)
-- [Suggest a configuration change](https://github.com/slydtaz/Better-Voxy/issues/new/choose)
-- [Report a minor or unknown bug](https://github.com/slydtaz/Better-Voxy/issues/new/choose)
-- [Report a crash or serious issue](https://github.com/slydtaz/Better-Voxy/issues/new/choose)
+- [Suggest an additional mod](https://github.com/slydtaz/Better-Voxy/issues/new?template=01-add-mod.yml)
+- [Suggest a configuration change](https://github.com/slydtaz/Better-Voxy/issues/new?template=02-settings-change.yml)
+- [Report a minor or unknown bug](https://github.com/slydtaz/Better-Voxy/issues/new?template=03-bug-minor-or-unknown.yml)
+- [Report a crash or serious issue](https://github.com/slydtaz/Better-Voxy/issues/new?template=04-crash-or-serious-issue.yml)
 
-GitHub will show the available forms after you choose **New issue**.
+If a direct link does not select a form automatically, open [New issue](https://github.com/slydtaz/Better-Voxy/issues/new/choose) and choose the appropriate form.
 
 ## Before opening an issue
 
