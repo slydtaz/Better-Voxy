@@ -1,0 +1,83 @@
+name: Report a minor or unknown bug
+description: Report a visual glitch, a mod feature that behaves incorrectly, or another issue that does not crash the game.
+title: "[Minor Bug]: "
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Use this form for issues that do not crash the game, such as visual glitches, a feature not working, or unexpected behavior from a mod.
+        For crashes, freezes that prevent play, or failures to launch, use **Report a crash or serious issue** instead.
+  - type: dropdown
+    id: category
+    attributes:
+      label: Issue type
+      options:
+        - Voxy or distant terrain rendering
+        - Performance or stuttering
+        - A mod feature is not working
+        - Visual or UI glitch
+        - Configuration behaves unexpectedly
+        - Other / not sure
+    validations:
+      required: true
+  - type: input
+    id: versions
+    attributes:
+      label: Better Voxy and Minecraft versions
+      placeholder: "Example: Better Voxy 1.0.0, Minecraft 26.2"
+    validations:
+      required: true
+  - type: textarea
+    id: summary
+    attributes:
+      label: What happened?
+      description: Describe the issue and where you noticed it.
+      placeholder: "Explain what you saw. If you do not know which mod is responsible, that is fine."
+    validations:
+      required: true
+  - type: textarea
+    id: steps
+    attributes:
+      label: Steps to reproduce
+      description: List the steps that reliably trigger the issue, if known.
+      placeholder: |
+        1. Open a world...
+        2. Change or use...
+        3. Observe the issue...
+    validations:
+      required: false
+  - type: textarea
+    id: expected-actual
+    attributes:
+      label: Expected behavior vs. actual behavior
+      placeholder: "What did you expect, and what happened instead?"
+    validations:
+      required: true
+  - type: dropdown
+    id: frequency
+    attributes:
+      label: How often does it happen?
+      options:
+        - Every time
+        - Often
+        - Occasionally
+        - Happened once
+        - Not sure
+    validations:
+      required: true
+  - type: textarea
+    id: environment
+    attributes:
+      label: Relevant setup and changes
+      description: Mention whether shaders are enabled, any settings you changed, and any mods you added or removed.
+      placeholder: "Include your GPU/operating system if relevant. Do not include private information."
+    validations:
+      required: false
+  - type: textarea
+    id: logs
+    attributes:
+      label: Relevant logs or screenshots
+      description: Optional. Add a screenshot or a link to a relevant log excerpt if available. Redact usernames, access tokens, and private server addresses.
+      placeholder: "Paste a short relevant excerpt or add a share link."
+    validations:
+      required: false
