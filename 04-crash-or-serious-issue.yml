@@ -1,0 +1,83 @@
+name: Report a crash or serious issue
+description: Report crashes, launch failures, freezes, suspected mod conflicts, or configuration-related failures.
+title: "[Crash / Critical Bug]: "
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Use this form if Minecraft crashes, fails to launch, freezes so badly that you cannot continue, or an issue may be caused by a mod conflict or a specific configuration.
+        Please attach the crash report or `logs/latest.log` when possible. Never upload your whole Minecraft folder or world save. Remove access tokens and other private information from logs.
+  - type: dropdown
+    id: failure-stage
+    attributes:
+      label: When does the issue occur?
+      options:
+        - The launcher cannot install the modpack
+        - Minecraft crashes during startup
+        - Minecraft crashes while loading a world
+        - The game crashes during gameplay
+        - The game freezes or becomes unplayable
+        - The issue starts after changing a configuration
+        - Not sure
+    validations:
+      required: true
+  - type: input
+    id: versions
+    attributes:
+      label: Better Voxy, Minecraft, and Fabric Loader versions
+      placeholder: "Example: Better Voxy 1.0.0, Minecraft 26.2, Fabric Loader 0.19.5"
+    validations:
+      required: true
+  - type: textarea
+    id: symptoms
+    attributes:
+      label: What happened before the failure?
+      description: Include the error message, crash description, and what you were doing immediately before it occurred.
+      placeholder: "Describe the sequence leading up to the crash or freeze."
+    validations:
+      required: true
+  - type: textarea
+    id: reproduce
+    attributes:
+      label: Steps to reproduce
+      placeholder: |
+        1. Launch Better Voxy...
+        2. Open a world or perform an action...
+        3. The game crashes/freezes...
+    validations:
+      required: true
+  - type: textarea
+    id: config-changes
+    attributes:
+      label: Configuration changes
+      description: List config files you edited and the values you changed. If you did not change any settings, write "None".
+      placeholder: "Example: config/..., changed render distance from ... to ..."
+    validations:
+      required: true
+  - type: textarea
+    id: mod-changes
+    attributes:
+      label: Mods added, removed, or updated
+      description: State whether the issue also occurs in a clean, unmodified Better Voxy installation.
+      placeholder: |
+        Extra mods:
+        Removed or updated mods:
+        Happens in a clean instance? Yes / No / Not tested
+    validations:
+      required: true
+  - type: textarea
+    id: crash-report
+    attributes:
+      label: Crash report or latest.log
+      description: Paste a share link to the crash report or `logs/latest.log`. If very long, use a reputable paste service and link it here. Redact access tokens, usernames, and private server addresses.
+      placeholder: "https://... (link to the log or crash report)"
+    validations:
+      required: true
+  - type: textarea
+    id: diagnostics
+    attributes:
+      label: Troubleshooting already tried
+      description: Mention whether you tested without shaders, reverted configuration changes, or reproduced the issue in a clean instance.
+      placeholder: "List tests and their results. Do not delete files or worlds you need to keep."
+    validations:
+      required: false

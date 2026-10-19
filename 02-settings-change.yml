@@ -1,0 +1,60 @@
+name: Suggest a configuration change
+description: Suggest a new toggle, default, or change to an existing setting.
+title: "[Configuration]: "
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Use this form for configurable options, default values, or changes to how Better Voxy is configured.
+        Do not include passwords, access tokens, or other private information.
+  - type: input
+    id: setting
+    attributes:
+      label: Setting or feature
+      description: Name the setting or the part of the modpack you want to configure.
+      placeholder: "Example: Voxy rendering distance"
+    validations:
+      required: true
+  - type: textarea
+    id: current-behavior
+    attributes:
+      label: Current behavior
+      description: What does the setting do now, and what is its current value if known?
+      placeholder: "Explain the current behavior or default."
+    validations:
+      required: true
+  - type: textarea
+    id: proposed-change
+    attributes:
+      label: Proposed change
+      description: Explain exactly what should change.
+      placeholder: "Example: expose this option in the config and use a lower default value."
+    validations:
+      required: true
+  - type: textarea
+    id: reason
+    attributes:
+      label: Why would this help?
+      description: Describe the use case and who would benefit.
+      placeholder: "Performance, compatibility, usability, visual quality, or another reason."
+    validations:
+      required: true
+  - type: dropdown
+    id: scope
+    attributes:
+      label: Preferred scope
+      options:
+        - Change the default for everyone
+        - Add an option that users can change themselves
+        - Add a preset or profile
+        - Not sure; please evaluate it
+    validations:
+      required: true
+  - type: textarea
+    id: files-and-impact
+    attributes:
+      label: Relevant config files or possible impact
+      description: If known, name the config file and mention performance, visual, or compatibility trade-offs.
+      placeholder: "Optional. Do not attach entire saves or private files."
+    validations:
+      required: false
