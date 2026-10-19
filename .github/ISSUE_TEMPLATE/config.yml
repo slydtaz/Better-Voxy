@@ -1,5 +1,5 @@
 blank_issues_enabled: false
 contact_links:
-  - name: Better Voxy README and basic help
-    url: https://github.com/slydtaz/Better-Voxy#readme
-    about: Check the project notes before opening an issue. Use the issue forms for bug reports and suggestions.
+  - name: Better Voxy Documentation
+    url: https://github.com/slydtaz/Better-Voxy/tree/main/docs/wiki
+    about: Read installation, Chunksmith, configuration, and troubleshooting guides before opening an issue.
