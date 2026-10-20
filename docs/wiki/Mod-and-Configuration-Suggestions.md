@@ -1,17 +1,17 @@
 # Mod and Configuration Suggestions
 
-Suggestions are welcome when they fit Better Voxy's focus on Voxy, distant-terrain rendering, and client optimization.
+Got an idea for a mod or a setting that could make Better Voxy better? Suggestions are welcome, especially when they fit the pack's focus on Voxy, distant terrain, and client performance.
 
 ## Suggest a mod
 
-Use the [mod suggestion form](https://github.com/slydtaz/Better-Voxy/issues/new?template=01-add-mod.yml). Include the exact name, official project link, Minecraft/Fabric compatibility, the problem it solves, known conflicts, performance trade-offs, and whether you believe it should be required or optional.
+Use the [mod suggestion form](https://github.com/slydtaz/Better-Voxy/issues/new?template=01-add-mod.yml). Include the mod's exact name and official project link, along with the Minecraft/Fabric versions it supports, what you would use it for, and any conflicts or performance trade-offs you know about.
 
-Do not attach mod JARs; link to the official project page instead.
+It also helps to say whether the mod should be required for everyone or would be better as an optional addition. Please link to the official project page instead of attaching a JAR.
 
 ## Suggest a configuration change
 
-Use the [configuration suggestion form](https://github.com/slydtaz/Better-Voxy/issues/new?template=02-settings-change.yml). Describe the current behavior, proposed change, use case, and possible performance or compatibility trade-offs. Include the relevant file and setting name if known.
+Use the [configuration suggestion form](https://github.com/slydtaz/Better-Voxy/issues/new?template=02-settings-change.yml). Tell us how the setting works right now, what you would change, and why that change would help. If you know the relevant config file or setting name, include it.
 
-## How suggestions are evaluated
+## How suggestions are considered
 
-Suggestions may be considered based on stability, compatibility, performance, usability, maintenance, licensing, and permission to redistribute the relevant files on Modrinth. A suggestion does not guarantee that the mod or setting will be included.
+Not every suggestion will make it into the pack. Before adding a mod or changing a default, the project needs to consider stability, compatibility, performance, ease of use, ongoing maintenance, licensing, and permission to distribute the files through Modrinth. A clear explanation of the use case makes a suggestion easier to evaluate.
