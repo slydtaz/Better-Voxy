@@ -1,40 +1,42 @@
 # Troubleshooting
 
-## The game does not launch
+If Better Voxy is acting up, start with the checks below. Change one thing at a time so you can narrow down what is actually causing the problem.
 
-- Confirm the Minecraft and Fabric Loader versions match the Better Voxy release.
-- Let the Modrinth App finish installing all files.
-- Try an unchanged, clean instance.
-- Record the complete error message and the latest log.
+## Minecraft will not launch
 
-## Voxy or distant terrain is not visible
+- Check that the Minecraft and Fabric Loader versions match the Better Voxy release you installed.
+- Wait for the Modrinth App to finish downloading every file.
+- Try launching a clean instance without extra mods or settings changes.
+- Save the full error message and the latest log so you can share the relevant part if needed.
 
-- Confirm Voxy is installed and enabled.
-- Allow the game to load or generate terrain data.
-- If using Chunksmith, confirm the task completed and consult its documentation for LOD support.
-- Temporarily disable shaders and additional visual mods to rule out conflicts.
+## Voxy is not showing distant terrain
 
-## Low performance or stuttering
+- Make sure Voxy is installed and enabled.
+- Give the game time to load or generate the terrain data it needs.
+- If you used Chunksmith, check that the task finished and that your versions support the LOD workflow you are using.
+- Temporarily turn off shaders and extra visual mods to check whether one of them is causing a conflict.
 
-- Lower expensive rendering settings gradually.
-- Pause Chunksmith while checking whether pre-generation is responsible.
-- Test without additional mods, shaders, and resource packs that you installed yourself.
-- Close unnecessary applications and check available memory.
+## Low FPS or stuttering
 
-## Find logs
+- Lower demanding rendering settings a little at a time.
+- Pause Chunksmith while testing, in case chunk pre-generation is using too many resources.
+- Test without any extra mods, shaders, or resource packs you added yourself.
+- Close background apps you do not need and check how much memory is available.
 
-Open the Better Voxy instance folder from the Modrinth App. Common locations are:
+## Where to find logs
+
+Open your Better Voxy instance folder in the Modrinth App. The most useful files are usually:
 
 - `logs/latest.log`
-- `crash-reports/`
+- Files inside `crash-reports/`
 
-Share only the relevant log or crash report. Remove access tokens, personal data, and private server addresses. Never upload your entire Minecraft directory or a world save.
+Share only the relevant log excerpt or crash report. Remove access tokens, personal information, and private server addresses first. Do not upload your entire Minecraft folder or a world save.
 
 ## Check for mod conflicts
 
-Test in a duplicated instance. First reproduce the problem with the original modpack. If it works, add your extra mods back one at a time. Record any configuration changes and the result of each test.
+Try this in a duplicate instance so your main setup stays safe. First, reproduce the problem with Better Voxy unchanged. If it works, add your extra mods back one at a time and test after each addition. Keep track of any settings you changed, too.
 
-## Report the issue
+## Still stuck?
 
-- [Minor or unknown bug](https://github.com/slydtaz/Better-Voxy/issues/new?template=03-bug-minor-or-unknown.yml)
-- [Crash or serious issue](https://github.com/slydtaz/Better-Voxy/issues/new?template=04-crash-or-serious-issue.yml)
+- [Report a minor or unknown bug](https://github.com/slydtaz/Better-Voxy/issues/new?template=03-bug-minor-or-unknown.yml)
+- [Report a crash or serious issue](https://github.com/slydtaz/Better-Voxy/issues/new?template=04-crash-or-serious-issue.yml)
