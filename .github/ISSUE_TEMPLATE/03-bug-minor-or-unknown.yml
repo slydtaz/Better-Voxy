@@ -1,22 +1,22 @@
 name: Report a minor or unknown bug
-description: Report a visual glitch, a mod feature that behaves incorrectly, or another issue that does not crash the game.
+description: Something looks wrong or a feature isn't working, but the game doesn't crash? Report it here.
 title: "[Minor Bug]: "
 body:
   - type: markdown
     attributes:
       value: |
-        Use this form for issues that do not crash the game, such as visual glitches, a feature not working, or unexpected behavior from a mod.
-        For crashes, freezes that prevent play, or failures to launch, use **Report a crash or serious issue** instead.
+        Use this form for issues like visual glitches, features that don't behave as expected, or other problems that don't crash the game.
+        If Minecraft crashes, won't launch, or freezes so badly that you can't keep playing, use **Report a crash or serious issue** instead.
   - type: dropdown
     id: category
     attributes:
-      label: Issue type
+      label: What kind of issue is it?
       options:
         - Voxy or distant terrain rendering
         - Performance or stuttering
-        - A mod feature is not working
+        - A mod feature isn't working
         - Visual or UI glitch
-        - Configuration behaves unexpectedly
+        - A configuration behaves unexpectedly
         - Other / not sure
     validations:
       required: true
@@ -24,33 +24,34 @@ body:
     id: versions
     attributes:
       label: Better Voxy and Minecraft versions
-      placeholder: "Example: Better Voxy 1.0.0, Minecraft 26.2"
+      description: Which release of the pack and Minecraft are you using?
+      placeholder: "For example: Better Voxy 1.0.0, Minecraft 26.2"
     validations:
       required: true
   - type: textarea
     id: summary
     attributes:
       label: What happened?
-      description: Describe the issue and where you noticed it.
-      placeholder: "Explain what you saw. If you do not know which mod is responsible, that is fine."
+      description: Tell us what you noticed and where it happened. It's okay if you don't know which mod is responsible.
+      placeholder: "Describe what you saw, in your own words."
     validations:
       required: true
   - type: textarea
     id: steps
     attributes:
-      label: Steps to reproduce
-      description: List the steps that reliably trigger the issue, if known.
+      label: How can we reproduce it?
+      description: If you know how to trigger the issue again, list the steps.
       placeholder: |
         1. Open a world...
-        2. Change or use...
-        3. Observe the issue...
+        2. Do or change something...
+        3. Notice the issue...
     validations:
       required: false
   - type: textarea
     id: expected-actual
     attributes:
-      label: Expected behavior vs. actual behavior
-      placeholder: "What did you expect, and what happened instead?"
+      label: What did you expect, and what happened instead?
+      placeholder: "Describe the difference between what you expected and what you saw."
     validations:
       required: true
   - type: dropdown
@@ -68,16 +69,16 @@ body:
   - type: textarea
     id: environment
     attributes:
-      label: Relevant setup and changes
-      description: Mention whether shaders are enabled, any settings you changed, and any mods you added or removed.
-      placeholder: "Include your GPU/operating system if relevant. Do not include private information."
+      label: Your setup and any recent changes
+      description: Mention shaders, settings, or extra mods if they're relevant. Include your GPU or operating system only when it helps explain the issue.
+      placeholder: "What are you running, and did you change anything before this started?"
     validations:
       required: false
   - type: textarea
     id: logs
     attributes:
-      label: Relevant logs or screenshots
-      description: Optional. Add a screenshot or a link to a relevant log excerpt if available. Redact usernames, access tokens, and private server addresses.
-      placeholder: "Paste a short relevant excerpt or add a share link."
+      label: Logs or screenshots (optional)
+      description: A screenshot or a short log excerpt can help. Remove usernames, access tokens, and private server addresses first.
+      placeholder: "Paste a relevant excerpt or share a link."
     validations:
       required: false
