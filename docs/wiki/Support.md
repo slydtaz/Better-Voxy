@@ -1,8 +1,8 @@
 # Support and Bug Reports
 
-Use the GitHub issue tracker for Better Voxy bugs and suggestions.
+Having a problem with Better Voxy, or have an idea for improving it? Use the GitHub issue tracker so the report stays organized and can be followed up on.
 
-## Choose a form
+## Pick the form that fits
 
 - [Suggest an additional mod](https://github.com/slydtaz/Better-Voxy/issues/new?template=01-add-mod.yml)
 - [Suggest a configuration change](https://github.com/slydtaz/Better-Voxy/issues/new?template=02-settings-change.yml)
@@ -10,12 +10,14 @@ Use the GitHub issue tracker for Better Voxy bugs and suggestions.
 - [Report a crash or serious issue](https://github.com/slydtaz/Better-Voxy/issues/new?template=04-crash-or-serious-issue.yml)
 - [Browse existing issues](https://github.com/slydtaz/Better-Voxy/issues)
 
-## What to include
+## What helps us understand the problem
 
-Include your Better Voxy, Minecraft, and Fabric Loader versions; steps to reproduce; expected versus actual behavior; and a relevant log or crash report when necessary. For suspected mod conflicts, say which mods were added, removed, or updated. For configuration failures, list the setting and changed values.
+Include your Better Voxy, Minecraft, and Fabric Loader versions; what you did before the issue appeared; and what happened instead of what you expected. Add a relevant log excerpt or crash report when it helps.
 
-It is okay to say that you do not know which mod caused the issue.
+If you think two mods are conflicting, mention which mods you added, removed, or updated. If a setting seems to be responsible, name the file and value you changed. It is completely fine if you do not know which mod caused the problem yet.
 
-## Keep reports safe
+## Keep personal information out of reports
 
-Do not include passwords, access tokens, session data, or private server addresses. Do not upload entire game folders, world saves, or mod JARs. Search existing issues before opening a duplicate.
+Logs can contain information you did not mean to publish. Remove passwords, access tokens, session data, and private server addresses before sharing anything. Please do not upload your whole game folder, a world save, or mod JARs.
+
+Before opening a new issue, take a quick look at the existing reports to see whether someone has already described the same problem.
