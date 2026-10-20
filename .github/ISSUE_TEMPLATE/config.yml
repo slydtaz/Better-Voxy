@@ -1,5 +1,5 @@
 blank_issues_enabled: false
 contact_links:
-  - name: Better Voxy Documentation
+  - name: Better Voxy guides and help
     url: https://github.com/slydtaz/Better-Voxy/tree/main/docs/wiki
-    about: Read installation, Chunksmith, configuration, and troubleshooting guides before opening an issue.
+    about: Check the installation, Chunksmith, configuration, and troubleshooting guides first. You might find the answer there without needing to open an issue.
