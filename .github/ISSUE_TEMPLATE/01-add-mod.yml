@@ -1,42 +1,42 @@
 name: Suggest an additional mod
-description: Suggest a mod that could improve Better Voxy.
+description: Have a mod in mind that could be a good fit for Better Voxy? Let us know.
 title: "[Mod Suggestion]: "
 body:
   - type: markdown
     attributes:
       value: |
-        Suggest mods that fit Better Voxy's focus on Voxy, distant terrain rendering, and performance.
-        Please link to the official Modrinth or CurseForge project page. Do not attach mod JARs.
+        Have you found a mod that might fit Better Voxy? Tell us what it does and why you think it belongs in the pack.
+        Please link to its official Modrinth, CurseForge, or source page instead of attaching a mod JAR.
   - type: input
     id: mod-name
     attributes:
       label: Mod name
-      description: What is the exact name of the mod?
-      placeholder: "Example: Example Optimization Mod"
+      description: What's the exact name of the mod?
+      placeholder: "Enter the mod's name"
     validations:
       required: true
   - type: input
     id: project-link
     attributes:
       label: Official project page
-      description: Link to the mod's official Modrinth, CurseForge, or source page.
+      description: Share the mod's official Modrinth, CurseForge, or source link.
       placeholder: "https://modrinth.com/mod/..."
     validations:
       required: true
   - type: textarea
     id: purpose
     attributes:
-      label: What would this mod add or improve?
-      description: Explain the benefit in your own words.
-      placeholder: "Describe the performance improvement, feature, or problem it would solve."
+      label: Why would you like to see this mod in Better Voxy?
+      description: What would it improve or make possible?
+      placeholder: "Tell us what caught your attention and how you'd use it."
     validations:
       required: true
   - type: dropdown
     id: role
     attributes:
-      label: How should it be included?
+      label: How do you think it should be included?
       options:
-        - Required in every installation
+        - Required for every installation
         - Optional, if the launcher supports it
         - Not sure; please evaluate it
     validations:
@@ -44,16 +44,16 @@ body:
   - type: textarea
     id: compatibility
     attributes:
-      label: Compatibility information
-      description: Include known support for Minecraft 26.2, Fabric, and any conflicts or dependencies you know about.
-      placeholder: "Share links or compatibility notes."
+      label: Compatibility notes
+      description: Share anything you know about Minecraft 26.2, Fabric support, dependencies, or conflicts.
+      placeholder: "Links and notes are welcome."
     validations:
       required: false
   - type: textarea
     id: alternatives
     attributes:
-      label: Alternatives and extra context
+      label: Anything else we should know?
       description: Is there already a mod in Better Voxy that does something similar?
-      placeholder: "Optional details."
+      placeholder: "Add any extra context that might help us decide."
     validations:
       required: false
