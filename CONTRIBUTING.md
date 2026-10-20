@@ -1,35 +1,37 @@
 # Contributing to Better Voxy
 
-Thank you for helping improve Better Voxy.
+Thanks for taking the time to help with Better Voxy. Whether you've found a bug, have an idea for a new mod, or spotted a setting that could work better, your feedback is welcome.
 
-## Choose the right issue form
+## Where should I post?
 
-Use the GitHub issue forms for:
+Choose the GitHub issue form that best fits what you want to share:
 
-- **Mod suggestions:** include the official project page, explain what the mod adds, and mention known compatibility concerns.
-- **Configuration suggestions:** describe the current behavior, your proposed change, and the trade-offs.
-- **Minor or unknown bugs:** use this for problems that do not crash the game.
-- **Crashes or serious issues:** use this for launch failures, crashes, severe freezes, suspected mod conflicts, or failures related to configuration changes.
+- **Suggest a mod:** Link to the official project page, explain what it would add, and mention any compatibility concerns you know about.
+- **Suggest a configuration change:** Tell us how the setting works now, what you'd change, and why.
+- **Report a minor bug:** Use this for problems that don't crash the game, such as visual glitches or features that aren't behaving as expected.
+- **Report a crash or serious issue:** Use this for launch failures, crashes, severe freezes, or problems that may be tied to a mod conflict or configuration change.
 
-## Helpful bug reports
+## What makes a bug report useful?
 
-Please include, when relevant:
+When you can, include:
 
-- Better Voxy, Minecraft, and Fabric Loader versions.
-- Clear steps to reproduce the problem.
-- Whether the problem occurs in an unchanged, clean Better Voxy installation.
-- Which mods were added, removed, or updated.
-- Which configuration files were edited and what was changed.
-- A crash report or a relevant section/link from `logs/latest.log`.
+- Your Better Voxy, Minecraft, and Fabric Loader versions.
+- The steps that led to the problem.
+- Whether it also happens in a clean Better Voxy instance with no extra mods.
+- Any mods you added, removed, or updated.
+- The configuration files or settings you changed.
+- A crash report or the relevant part of `logs/latest.log`.
 
-If you are unsure which mod causes the issue, say so. Do not guess or remove files just to make the report look complete.
+You don't have to know which mod caused the problem. Just describe what happened and what you already tried. That's more useful than guessing.
 
-## Protect private information
+## Keep private information out of reports
 
-Before sharing logs, remove access tokens, personal data, private server addresses, and other information you do not want to make public. Never upload an entire Minecraft directory, world save, or mod JAR as an issue attachment.
+Logs sometimes contain information you may not want to share publicly. Remove access tokens, personal data, private server addresses, and anything else sensitive before posting. Please don't upload your entire Minecraft folder, a world save, or mod JARs to an issue.
 
-## Writing suggestions
+## A few things that help
 
-Please use English in issue titles and descriptions when possible, keep one main problem per issue, and search existing issues before creating a duplicate. Be respectful and focus on reproducible behavior rather than blame.
+English issue titles and descriptions are preferred when possible so more people can follow the discussion. Keep each issue focused on one main problem, and take a quick look at existing reports before opening a new one.
 
-Submitting a suggestion does not guarantee that a mod or configuration change will be added; compatibility, stability, performance, licensing, and project scope will be considered.
+Please be respectful and focus on what can be reproduced. Reports don't need to be perfect; clear details are what matter.
+
+Suggestions are always welcome, but not every mod or setting will make it into the pack. Compatibility, stability, performance, maintenance, licensing, and the overall direction of Better Voxy all play a part in that decision.
